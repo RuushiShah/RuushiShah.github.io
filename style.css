@@ -1,0 +1,182 @@
+/* I Ruushi Shah, 000884229 certify that Assignment 6 is my own work and I haven't shared my work with anyone else. I take the whole responsibility fo my own i.e., Assignment 6. */
+
+/* Base Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+    overflow: hidden; /* Disable scrolling on initial load */
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    display: flex;
+    align-items: center;
+}
+
+header h1 img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* Nav styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: row; /* Aligns image and content horizontally */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    margin-top: 5rem;
+    height: 100vh; /* Full screen height */
+}
+
+.hero-content {
+    flex: 1; /* Takes up available space */
+    padding-right: 2rem; /* Adds space between content and image */
+}
+
+.hero-image {
+    flex: 0 0 40%; /* Fixes image container width */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Button styling */
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e5533d;
+}
+
+/* Section Styling */
+section {
+    padding: 5rem 0;
+    display: none; /* Hide all sections initially */
+}
+
+section.active {
+    display: block;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+h2 span {
+    border-bottom: 2px solid #ff6347;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Sticky Navigation and Footer */
+.header, footer {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+section {
+    margin-top: 5rem; /* Add space for fixed header */
+}
+
+/* Contact Icons */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icons a {
+    display: inline-block;
+}
+
+.contact-icons img {
+    width: 50px;
+    height: 50px;
+}
+/* Here ends the CSS code. */
